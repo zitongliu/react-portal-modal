@@ -3,3 +3,24 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.profile-container {
+  width: 300px;
+  min-height: 300px;
+  display: inline-block;
+  border: 1px solid silver;
+}
+
+
+.profile-button {
+  background-color: dodgerblue;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  color: white;
+}
+
+.profile-button:hover,
+.profile-button:focus {
+  cursor: pointer;
+}
